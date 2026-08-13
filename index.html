@@ -35,12 +35,13 @@
       <section class="booking-panel" id="book">
         <div class="booking-tabs" role="tablist"><button class="active" data-type="Flight">✈ Flights</button><button data-type="Bus">▣ Bus</button><button data-type="Train">▤ Train</button><button data-type="Holiday">☼ Holidays</button></div>
         <form id="travel-form">
-          <label>FROM<input required placeholder="Departure city" /></label>
+          <label>FROM<input name="from" required placeholder="Departure city" /></label>
           <span class="swap">⇄</span>
-          <label>TO<input required placeholder="Where to?" /></label>
-          <label>WHEN<input type="date" required /></label>
-          <label>TRAVELLERS<select><option>1 Traveller</option><option>2 Travellers</option><option>3 Travellers</option><option>4+ Travellers</option></select></label>
-          <button class="search" type="submit">Search <span>→</span></button>
+          <label>TO<input name="to" required placeholder="Where to?" /></label>
+          <label>WHEN<input name="travel-date" type="date" required /></label>
+          <label>TRAVELLERS<select name="travellers"><option>1 Traveller</option><option>2 Travellers</option><option>3 Travellers</option><option>4+ Travellers</option></select></label>
+          <label>MOBILE NUMBER<input name="mobile" type="tel" inputmode="tel" autocomplete="tel" required placeholder="Your mobile number" /></label>
+          <button class="search" type="submit">Get quote <span>→</span></button>
         </form>
       </section>
 
@@ -64,7 +65,7 @@
 
       <section class="payment"><div><p class="eyebrow">SIMPLE & SECURE</p><h2>Book now.<br/>Pay with confidence.</h2><p>Once your itinerary is confirmed, complete payment safely online through our secure payment partner.</p></div><div class="payment-card"><div class="card-line"><span>PAYMENT LINK</span><b>●●●●  ••••  ••••  7788</b></div><div class="payment-bottom"><span>Verified checkout</span><span>🔒 Secured</span></div></div></section>
 
-      <section class="contact" id="contact"><p class="eyebrow">LET'S GET YOU GOING</p><h2>Where will you<br/><em>go next?</em></h2><p>Tell us a little about your plans and a travel specialist will be in touch.</p><form id="contact-form"><input required placeholder="Your name" /><input required type="email" placeholder="Email address" /><select><option>I’m interested in…</option><option>Air tickets</option><option>Bus or train tickets</option><option>Visa service</option><option>Tour package</option></select><textarea placeholder="Tell us where you’d like to go"></textarea><button class="button" type="submit">Continue to enquiry form <span>→</span></button></form></section>
+      <section class="contact" id="contact"><p class="eyebrow">LET'S GET YOU GOING</p><h2>Where will you<br/><em>go next?</em></h2><p>Tell us a little about your plans and a travel specialist will be in touch.</p><form id="contact-form"><input required placeholder="Your name" /><input required type="email" placeholder="Email address" /><input required type="tel" inputmode="tel" autocomplete="tel" placeholder="Mobile number" /><select><option>I’m interested in…</option><option>Air tickets</option><option>Bus or train tickets</option><option>Visa service</option><option>Tour package</option></select><textarea placeholder="Tell us where you’d like to go"></textarea><button class="button" type="submit">Continue to enquiry form <span>→</span></button></form></section>
     </main>
     <footer><a class="brand" href="#home" aria-label="Click N Go home"><img class="brand-logo" src="click-n-go-logo.svg" alt="Click N Go Travel Hub" /></a><p>Travel made effortless, wherever you’re starting from.</p><a href="mailto:clickngotravelhub@gmail.com">clickngotravelhub@gmail.com</a><small>© 2026 Click N Go Travel Hub. All rights reserved.</small></footer>
     <div class="toast" id="toast" role="status"></div><script src="script.js"></script>
