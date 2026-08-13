@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Click N Go Travel Hub logo</title>
+  <desc id="desc">A navy C shaped route with a coral paper plane, followed by the Click N Go Travel Hub wordmark.</desc>
+  <rect width="1200" height="360" rx="40" fill="#FFF8ED"/>
+  <g transform="translate(62 54)">
+    <circle cx="126" cy="126" r="112" fill="#102A43"/>
+    <path d="M177 66A78 78 0 1 0 183 184" fill="none" stroke="#FFF8ED" stroke-linecap="round" stroke-width="29"/>
+    <path d="M153 70C187 72 214 100 218 134" fill="none" stroke="#FF6B4A" stroke-dasharray="7 12" stroke-linecap="round" stroke-width="7"/>
+    <path d="M218 134l-43-21 20 28-9 28z" fill="#FF6B4A"/>
+    <circle cx="75" cy="77" r="9" fill="#F6C453"/>
+  </g>
+  <g transform="translate(330 85)">
+    <text x="0" y="86" fill="#102A43" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="800" letter-spacing="-3">CLICK</text>
+    <text x="266" y="86" fill="#FF6B4A" font-family="Georgia, serif" font-size="92" font-style="italic" font-weight="700">N</text>
+    <text x="335" y="86" fill="#102A43" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="800" letter-spacing="-3">GO</text>
+    <path d="M3 119h614" stroke="#F6C453" stroke-width="5"/>
+    <text x="5" y="163" fill="#53687A" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" letter-spacing="9">TRAVEL HUB</text>
+  </g>
+</svg>
