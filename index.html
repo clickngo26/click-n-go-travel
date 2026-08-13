@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Click N Go — tickets, visas and unforgettable tour packages from India to the world." />
+    <title>Click N Go | Travel made effortless</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="topbar"><span>✦ Your next journey starts here</span><a href="mailto:clickngotravelhub@gmail.com">clickngotravelhub@gmail.com</a></div>
+    <header>
+      <a class="brand" href="#home" aria-label="Click N Go home"><span class="brand-mark">C</span><span>CLICK <i>N</i> GO<small>TRAVEL HUB</small></span></a>
+      <nav aria-label="Main navigation"><a href="#services">Services</a><a href="#packages">Packages</a><a href="#about">Why us</a><a href="#contact">Contact</a></nav>
+      <a class="button button-small" href="#book">Plan my trip <span>→</span></a>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">INDIA TO THE WORLD</p>
+          <h1>Travel far.<br/><em>Feel close.</em></h1>
+          <p class="hero-text">From a quick ticket to a once-in-a-lifetime escape, Click N Go keeps every part of your journey simple, personal and on time.</p>
+          <div class="hero-actions"><a class="button" href="#book">Start planning <span>→</span></a><a class="watch" href="#services"><b>▶</b> Explore services</a></div>
+          <div class="trust"><span><strong>10K+</strong> journeys planned</span><span><strong>24/7</strong> travel support</span><span><strong>100%</strong> secure payments</span></div>
+        </div>
+        <div class="hero-art" aria-label="Aerial view of a tropical beach"><div class="hero-card"><span>READY WHEN YOU ARE</span><b>Pack the curiosity.</b><small>We’ll handle the details.</small></div></div>
+      </section>
+
+      <section class="booking-panel" id="book">
+        <div class="booking-tabs" role="tablist"><button class="active" data-type="Flight">✈ Flights</button><button data-type="Bus">▣ Bus</button><button data-type="Train">▤ Train</button><button data-type="Holiday">☼ Holidays</button></div>
+        <form id="travel-form">
+          <label>FROM<input required placeholder="Departure city" /></label>
+          <span class="swap">⇄</span>
+          <label>TO<input required placeholder="Where to?" /></label>
+          <label>WHEN<input type="date" required /></label>
+          <label>TRAVELLERS<select><option>1 Traveller</option><option>2 Travellers</option><option>3 Travellers</option><option>4+ Travellers</option></select></label>
+          <button class="search" type="submit">Search <span>→</span></button>
+        </form>
+      </section>
+
+      <section class="intro" id="services"><p class="eyebrow">ONE PLACE, EVERY ROUTE</p><h2>Travel without the<br/>to-do list.</h2><p>Everything you need to get moving—thoughtfully arranged by people who love travel as much as you do.</p></section>
+      <section class="services-grid">
+        <article><div class="icon">✈</div><h3>Air tickets</h3><p>Domestic and international flights with routes and timings that work around you.</p><a href="#book">Find a flight →</a></article>
+        <article><div class="icon">◈</div><h3>Bus & rail tickets</h3><p>Easy ground travel across India, with confirmed seats and timely support.</p><a href="#book">Find a ride →</a></article>
+        <article><div class="icon">▣</div><h3>Visa services</h3><p>Clear guidance and document support, so your application feels effortless.</p><a href="#contact">Ask about visas →</a></article>
+        <article><div class="icon">☼</div><h3>Tour packages</h3><p>Beautiful stays, standout experiences and room to make it your own.</p><a href="#packages">See packages →</a></article>
+      </section>
+
+      <section class="packages" id="packages"><div class="section-heading"><div><p class="eyebrow">GO SOMEWHERE WONDERFUL</p><h2>Trips worth<br/><em>talking about.</em></h2></div><a class="text-link" href="#contact">Explore all packages →</a></div>
+        <div class="package-grid">
+          <article class="package bali"><div><span>FROM ₹34,999</span><h3>Bali, Indonesia</h3><p>5 nights · Beach & culture</p></div></article>
+          <article class="package kashmir"><div><span>FROM ₹21,999</span><h3>Heavenly Kashmir</h3><p>4 nights · Mountains & lakes</p></div></article>
+          <article class="package dubai"><div><span>FROM ₹39,999</span><h3>Dubai Escape</h3><p>4 nights · City & desert</p></div></article>
+        </div>
+      </section>
+
+      <section class="why" id="about"><div class="why-image"></div><div class="why-copy"><p class="eyebrow">THE CLICK N GO WAY</p><h2>More excitement.<br/><em>Less uncertainty.</em></h2><p>We pair smart planning with genuinely caring service. Whether you’re travelling from India or arriving from abroad, there’s a real person on your side from first click to safe return.</p><div class="benefits"><span>✓ Personalized itineraries</span><span>✓ Transparent, fair pricing</span><span>✓ Support before & during travel</span><span>✓ Secure online checkout</span></div><a class="button" href="#contact">Talk to a travel expert <span>→</span></a></div></section>
+
+      <section class="payment"><div><p class="eyebrow">SIMPLE & SECURE</p><h2>Book now.<br/>Pay with confidence.</h2><p>Once your itinerary is confirmed, complete payment safely online through our secure payment partner.</p></div><div class="payment-card"><div class="card-line"><span>PAYMENT LINK</span><b>●●●●  ••••  ••••  7788</b></div><div class="payment-bottom"><span>Verified checkout</span><span>🔒 Secured</span></div></div></section>
+
+      <section class="contact" id="contact"><p class="eyebrow">LET'S GET YOU GOING</p><h2>Where will you<br/><em>go next?</em></h2><p>Tell us a little about your plans and a travel specialist will be in touch.</p><form id="contact-form"><input required placeholder="Your name" /><input required type="email" placeholder="Email address" /><select><option>I’m interested in…</option><option>Air tickets</option><option>Bus or train tickets</option><option>Visa service</option><option>Tour package</option></select><textarea placeholder="Tell us where you’d like to go"></textarea><button class="button" type="submit">Continue to enquiry form <span>→</span></button></form></section>
+    </main>
+    <footer><a class="brand" href="#home"><span class="brand-mark">C</span><span>CLICK <i>N</i> GO<small>TRAVEL HUB</small></span></a><p>Travel made effortless, wherever you’re starting from.</p><a href="mailto:clickngotravelhub@gmail.com">clickngotravelhub@gmail.com</a><small>© 2026 Click N Go Travel Hub. All rights reserved.</small></footer>
+    <div class="toast" id="toast" role="status"></div><script src="script.js"></script>
+  </body>
+</html>
